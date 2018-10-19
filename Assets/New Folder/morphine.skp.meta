@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 9947eac3892b83f489b335401f7057b4
+timeCreated: 1523563163
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000
+  assetHash:
+    serializedVersion: 2
+    Hash: bf78294f75750f8b776a2428bc8e522d
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -0.065749556, y: 0.18476179, z: -0.14230405}
+      lookAt: {x: -0.026267214, y: 0.03149546, z: -0.012404816}
+      up: {x: 0.21768486, y: 0.66308117, z: 0.71619594}
+      fov: 63.803864
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: air
+    100002: air 1
+    100004: ampulle
+    100006: ampulle 1
+    100008: bigcup
+    100010: bottle
+    100012: fluid
+    100014: hcup
+    100016: hcup 1
+    100018: injection_void
+    100020: injection_void 1
+    100022: liquid_loaded
+    100024: liquid_unloaded
+    100026: //RootNode
+    100028: needle
+    100030: needle 1
+    100032: piston
+    100034: piston 1
+    100036: potion
+    100038: potion 1
+    100040: seal_locked
+    400000: air
+    400002: air 1
+    400004: ampulle
+    400006: ampulle 1
+    400008: bigcup
+    400010: bottle
+    400012: fluid
+    400014: hcup
+    400016: hcup 1
+    400018: injection_void
+    400020: injection_void 1
+    400022: liquid_loaded
+    400024: liquid_unloaded
+    400026: //RootNode
+    400028: needle
+    400030: needle 1
+    400032: piston
+    400034: piston 1
+    400036: potion
+    400038: potion 1
+    400040: seal_locked
+    2100000: _LightGray_
+    2100002: '[Color_C03]'
+    2100004: '[Color_A08]'
+    2100006: '[Translucent_Glass_Blue]'
+    2100008: mor
+    2100010: '[Color_000]'
+    2100012: '[Color_E13]'
+    2100014: '[Color_008]'
+    2100016: '[Translucent_Glass_Gray]'
+    2100018: lines
+    2100020: '[Translucent_Glass_Gold]'
+    2100022: _Beige_1
+    2100024: lid
+    2100026: '[Color_G10]'
+    2100028: '[Color_I04]'
+    2100030: '[Color_D05]'
+    2100032: vac
+    2300000: air
+    2300002: air 1
+    2300004: ampulle
+    2300006: ampulle 1
+    2300008: bigcup
+    2300010: bottle
+    2300012: fluid
+    2300014: hcup
+    2300016: hcup 1
+    2300018: injection_void
+    2300020: injection_void 1
+    2300022: liquid_loaded
+    2300024: liquid_unloaded
+    2300026: needle
+    2300028: needle 1
+    2300030: piston
+    2300032: piston 1
+    2300034: potion
+    2300036: potion 1
+    2300038: seal_locked
+    3300000: air
+    3300002: air 1
+    3300004: ampulle
+    3300006: ampulle 1
+    3300008: bigcup
+    3300010: bottle
+    3300012: fluid
+    3300014: hcup
+    3300016: hcup 1
+    3300018: injection_void
+    3300020: injection_void 1
+    3300022: liquid_loaded
+    3300024: liquid_unloaded
+    3300026: needle
+    3300028: needle 1
+    3300030: piston
+    3300032: piston 1
+    3300034: potion
+    3300036: potion 1
+    3300038: seal_locked
+    4300000: Mesh bigcup
+    4300002: Mesh hcup
+    4300004: Mesh potion
+    4300006: Mesh seal_locked
+    4300008: Mesh piston
+    4300010: Mesh injection_void
+    4300012: Mesh liquid_unloaded
+    4300014: Mesh bottle
+    4300016: Mesh needle
+    4300018: Mesh liquid_loaded
+    4300020: Mesh needle
+    4300022: Mesh fluid
+    4300024: Mesh ampulle
+    4300026: Mesh air
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

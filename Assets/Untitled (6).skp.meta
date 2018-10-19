@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: a2ca1d7f3d02eb846b85041159ededa7
+timeCreated: 1519864178
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 2bb614bc36f6761f1e38efa9e418a45e
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 1.5028018, y: 2.0149238, z: -1.2367258}
+      lookAt: {x: 0.5497509, y: 0.5397831, z: 0.32597995}
+      up: {x: -0.32672554, y: 0.77861804, z: 0.53572786}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Caster Swivel
+    100002: Caster Swivel 1
+    100004: Caster Swivel 2
+    100006: Caster Swivel 3
+    100008: Caster Wheel
+    100010: Caster Wheel 1
+    100012: Caster Wheel 2
+    100014: Caster Wheel 3
+    100016: Crash/Supply Cart
+    100018: door handle
+    100020: door handle 1
+    100022: Group 1
+    100024: Group 100
+    100026: Group 101
+    100028: Group 102
+    100030: Group 11
+    100032: Group 17
+    100034: Group 18
+    100036: Group 2
+    100038: Group 20
+    100040: Group 22
+    100042: Group 24
+    100044: Group 26
+    100046: Group 28
+    100048: Group 30
+    100050: Group 4
+    100052: Group 48
+    100054: Group 49
+    100056: Group 51
+    100058: Group 52
+    100060: Group 54
+    100062: Group 56
+    100064: Group 58
+    100066: Group 59
+    100068: Group 6
+    100070: Group 60
+    100072: Group 62
+    100074: Group 63
+    100076: Group 65
+    100078: Group 66
+    100080: Group 68
+    100082: Group 70
+    100084: Group 72
+    100086: Group 73
+    100088: Group 74
+    100090: Group 76
+    100092: Group 77
+    100094: Group 79
+    100096: Group 80
+    100098: Group 82
+    100100: Group 84
+    100102: Group 86
+    100104: Group 87
+    100106: Group 88
+    100108: Group 90
+    100110: Group 91
+    100112: Group 93
+    100114: Group 94
+    100116: Group 96
+    100118: Group 98
+    100120: modern door handle
+    100122: modern door handle 1
+    100124: //RootNode
+    100126: Vial
+    100128: Vial 1
+    100130: Vial 2
+    100132: Vial 3
+    400000: Caster Swivel
+    400002: Caster Swivel 1
+    400004: Caster Swivel 2
+    400006: Caster Swivel 3
+    400008: Caster Wheel
+    400010: Caster Wheel 1
+    400012: Caster Wheel 2
+    400014: Caster Wheel 3
+    400016: Crash/Supply Cart
+    400018: door handle
+    400020: door handle 1
+    400022: Group 1
+    400024: Group 100
+    400026: Group 101
+    400028: Group 102
+    400030: Group 11
+    400032: Group 17
+    400034: Group 18
+    400036: Group 2
+    400038: Group 20
+    400040: Group 22
+    400042: Group 24
+    400044: Group 26
+    400046: Group 28
+    400048: Group 30
+    400050: Group 4
+    400052: Group 48
+    400054: Group 49
+    400056: Group 51
+    400058: Group 52
+    400060: Group 54
+    400062: Group 56
+    400064: Group 58
+    400066: Group 59
+    400068: Group 6
+    400070: Group 60
+    400072: Group 62
+    400074: Group 63
+    400076: Group 65
+    400078: Group 66
+    400080: Group 68
+    400082: Group 70
+    400084: Group 72
+    400086: Group 73
+    400088: Group 74
+    400090: Group 76
+    400092: Group 77
+    400094: Group 79
+    400096: Group 80
+    400098: Group 82
+    400100: Group 84
+    400102: Group 86
+    400104: Group 87
+    400106: Group 88
+    400108: Group 90
+    400110: Group 91
+    400112: Group 93
+    400114: Group 94
+    400116: Group 96
+    400118: Group 98
+    400120: modern door handle
+    400122: modern door handle 1
+    400124: //RootNode
+    400126: Vial
+    400128: Vial 1
+    400130: Vial 2
+    400132: Vial 3
+    2100000: _defaultMat
+    2100002: '[Color_008]'
+    2100004: '[Color_007]'
+    2100006: '[Color_003]'
+    2100008: '[Color_005]'
+    2100010: '[Color_F21]'
+    2100012: '[Color_A11]'
+    2100014: '[Color_001]'
+    2100016: '[Color_002]'
+    2100018: '[Color_A01]'
+    2100020: '[Metal_Rough]'
+    2100022: Color_002
+    2100024: Color_000
+    2100026: Color_008
+    2100028: Translucent_Glass_Blue
+    2100030: Color_003
+    2100032: Translucent_Glass_Gray
+    2100034: _Low E Glass_1
+    2100036: _Low E Glass_
+    2100038: _3
+    2300000: Caster Swivel
+    2300002: Caster Swivel 1
+    2300004: Caster Swivel 2
+    2300006: Caster Swivel 3
+    2300008: Caster Wheel
+    2300010: Caster Wheel 1
+    2300012: Caster Wheel 2
+    2300014: Caster Wheel 3
+    2300016: door handle
+    2300018: door handle 1
+    2300020: Group 102
+    2300022: Group 11
+    2300024: Group 18
+    2300026: Group 2
+    2300028: Group 20
+    2300030: Group 22
+    2300032: Group 24
+    2300034: Group 26
+    2300036: Group 28
+    2300038: Group 30
+    2300040: Group 4
+    2300042: Group 49
+    2300044: Group 52
+    2300046: Group 54
+    2300048: Group 56
+    2300050: Group 6
+    2300052: Group 60
+    2300054: Group 63
+    2300056: Group 66
+    2300058: Group 68
+    2300060: Group 70
+    2300062: Group 74
+    2300064: Group 77
+    2300066: Group 80
+    2300068: Group 82
+    2300070: Group 84
+    2300072: Group 88
+    2300074: Group 91
+    2300076: Group 94
+    2300078: Group 96
+    2300080: Group 98
+    2300082: Vial
+    2300084: Vial 1
+    2300086: Vial 2
+    2300088: Vial 3
+    3300000: Caster Swivel
+    3300002: Caster Swivel 1
+    3300004: Caster Swivel 2
+    3300006: Caster Swivel 3
+    3300008: Caster Wheel
+    3300010: Caster Wheel 1
+    3300012: Caster Wheel 2
+    3300014: Caster Wheel 3
+    3300016: door handle
+    3300018: door handle 1
+    3300020: Group 102
+    3300022: Group 11
+    3300024: Group 18
+    3300026: Group 2
+    3300028: Group 20
+    3300030: Group 22
+    3300032: Group 24
+    3300034: Group 26
+    3300036: Group 28
+    3300038: Group 30
+    3300040: Group 4
+    3300042: Group 49
+    3300044: Group 52
+    3300046: Group 54
+    3300048: Group 56
+    3300050: Group 6
+    3300052: Group 60
+    3300054: Group 63
+    3300056: Group 66
+    3300058: Group 68
+    3300060: Group 70
+    3300062: Group 74
+    3300064: Group 77
+    3300066: Group 80
+    3300068: Group 82
+    3300070: Group 84
+    3300072: Group 88
+    3300074: Group 91
+    3300076: Group 94
+    3300078: Group 96
+    3300080: Group 98
+    3300082: Vial
+    3300084: Vial 1
+    3300086: Vial 2
+    3300088: Vial 3
+    4300000: Mesh Group 2
+    4300002: Mesh Group 4
+    4300004: Mesh Group 6
+    4300006: Mesh door handle
+    4300008: Mesh Group 18
+    4300010: Mesh Group 20
+    4300012: Mesh Group 22
+    4300014: Mesh Group 24
+    4300016: Mesh Group 28
+    4300018: Mesh Group 30
+    4300020: Mesh Caster Wheel
+    4300022: Mesh Caster Swivel
+    4300024: Mesh Group 49
+    4300026: Mesh Group 52
+    4300028: Mesh Group 54
+    4300030: Mesh Group 56
+    4300032: Mesh Group 60
+    4300034: Mesh Vial
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

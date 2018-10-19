@@ -1,0 +1,1061 @@
+fileFormatVersion: 2
+guid: 27a563c9de6649547996726c2f8df67a
+timeCreated: 1520269277
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b010000
+  assetHash:
+    serializedVersion: 2
+    Hash: cf8c7f32fc4bc7674e3f7c867221473b
+  longitude: -47.917
+  latitude: -15.783
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 4.102398, y: 3.0188947, z: -1.8440399}
+      lookAt: {x: 3.492336, y: -3.8823144, z: 21.697031}
+      up: {x: -0.007285576, y: 0.9596404, z: 0.28113568}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 12
+    100002: 12 1
+    100004: 2D_Man_Casual
+    100006: Air_Conditioning_Unit
+    100008: Alarm Grenzen
+    100010: Alarme Aus
+    100012: Alle Alarme Aus
+    100014: "Batterieladeger\xE4"
+    100016: Bild
+    100018: Caster Swivel
+    100020: Caster Swivel 1
+    100022: Caster Swivel 2
+    100024: Caster Swivel 3
+    100026: Caster Swivel 4
+    100028: Caster Swivel 5
+    100030: Caster Swivel 6
+    100032: Caster Swivel 7
+    100034: Caster Wheel
+    100036: Caster Wheel 1
+    100038: Caster Wheel 2
+    100040: Caster Wheel 3
+    100042: Caster Wheel 4
+    100044: Caster Wheel 5
+    100046: Caster Wheel 6
+    100048: Caster Wheel 7
+    100050: Clock_Wall_Simple
+    100052: Component#1
+    100054: Component#1 1
+    100056: Component#1 2
+    100058: Component#1 3
+    100060: D
+    100062: Door_3-0x6-8
+    100064: Door_3-0x6-8 1
+    100066: DoorKnob
+    100068: DoorKnob 1
+    100070: DoorKnob 2
+    100072: DoorKnob 3
+    100074: Doorknob_Round2
+    100076: Doorknob_Round2 1
+    100078: Doorknob_Round2 2
+    100080: Doorknob_Round2 3
+    100082: "Dr\xE4ger_Logo"
+    100084: "Dr\xE4ger_Logo 1"
+    100086: e-cylinder
+    100088: Filing_Lateral_30x19.75x29.75
+    100090: Filing_Lateral_30x19.75x29.75 1
+    100092: fin
+    100094: fin 1
+    100096: fin 10
+    100098: fin 11
+    100100: fin 12
+    100102: fin 13
+    100104: fin 14
+    100106: fin 15
+    100108: fin 16
+    100110: fin 17
+    100112: fin 18
+    100114: fin 19
+    100116: fin 2
+    100118: fin 20
+    100120: fin 21
+    100122: fin 22
+    100124: fin 23
+    100126: fin 24
+    100128: fin 25
+    100130: fin 26
+    100132: fin 27
+    100134: fin 28
+    100136: fin 29
+    100138: fin 3
+    100140: fin 30
+    100142: fin 31
+    100144: fin 32
+    100146: fin 33
+    100148: fin 34
+    100150: fin 35
+    100152: fin 36
+    100154: fin 37
+    100156: fin 38
+    100158: fin 39
+    100160: fin 4
+    100162: fin 40
+    100164: fin 41
+    100166: fin 42
+    100168: fin 43
+    100170: fin 44
+    100172: fin 5
+    100174: fin 6
+    100176: fin 7
+    100178: fin 8
+    100180: fin 9
+    100182: flucht
+    100184: FlushDoor36
+    100186: FlushDoor36 1
+    100188: GammaXL
+    100190: glas1
+    100192: Grill_18inx9in
+    100194: Grill_18inx9in 1
+    100196: Grill_18inx9in 10
+    100198: Grill_18inx9in 2
+    100200: Grill_18inx9in 3
+    100202: Grill_18inx9in 4
+    100204: Grill_18inx9in 5
+    100206: Grill_18inx9in 6
+    100208: Grill_18inx9in 7
+    100210: Grill_18inx9in 8
+    100212: Grill_18inx9in 9
+    100214: Group 155
+    100216: Group 179
+    100218: Group 238
+    100220: Group 240
+    100222: Group 242
+    100224: Group 244
+    100226: Group 246
+    100228: Group 288
+    100230: Group 302
+    100232: Group 316
+    100234: Group 330
+    100236: Group 344
+    100238: Group 358
+    100240: Group 372
+    100242: Group 386
+    100244: Group 400
+    100246: Group 62
+    100248: Group 64
+    100250: Group 66
+    100252: Group 68
+    100254: Group 70
+    100256: half
+    100258: half 1
+    100260: half 2
+    100262: half 3
+    100264: handle
+    100266: handle 1
+    100268: handle 2
+    100270: handle 3
+    100272: handle 4
+    100274: handle 5
+    100276: handle 6
+    100278: handle 7
+    100280: Hauptbild
+    100282: Heater_Baseboard_4ft
+    100284: //RootNode
+    100286: Infinity Gamma X
+    100288: IV_Pole
+    100290: IV_Pole 1
+    100292: joint
+    100294: joint 1
+    100296: Kopie
+    100298: LC-T121R8PU 12V,
+    100300: Light_Floor_Arco
+    100302: Light_Floor_Cable#1
+    100304: Light_Fluorescent_Ceiling_Grid_24x48
+    100306: Light_Fluorescent_Ceiling_Grid_24x48 1
+    100308: Light_Fluorescent_Ceiling_Grid_24x48 2
+    100310: Light_Fluorescent_Ceiling_Grid_24x48 3
+    100312: Light_Fluorescent_Ceiling_Grid_24x48 4
+    100314: Light_Fluorescent_Ceiling_Grid_24x48 5
+    100316: Light_Fluorescent_Ceiling_Grid_24x48 6
+    100318: Light_Fluorescent_Ceiling_Grid_24x48 7
+    100320: Light_Fluorescent_Ceiling_Grid_24x48 8
+    100322: "Men\xFC"
+    100324: NBP
+    100326: NBP Only !
+    100328: Notfall
+    100330: OP Saal
+    100332: OP-Lampe
+    100334: OP-Tisch
+    100336: Op-Tischchen
+    100338: Op-Tischchen 1
+    100340: Op-Tischchen 2
+    100342: Paper_Towel_Holder
+    100344: paper_towel_holder_quarter
+    100346: paper_towel_holder_quarter 1
+    100348: paper_towel_holder_quarter 2
+    100350: paper_towel_holder_quarter 3
+    100352: perf1
+    100354: perf1 1
+    100356: perf1 2
+    100358: perf1 3
+    100360: perf1 4
+    100362: pivot
+    100364: pivot 1
+    100366: pivot 2
+    100368: pivot 3
+    100370: pivot 4
+    100372: pivot 5
+    100374: pivot 6
+    100376: pivot 7
+    100378: pr
+    100380: Primus#1
+    100382: Primus#2
+    100384: Rechargeable Sea
+    100386: Restroom_Paper_Towel_Soap_Dispenser_Wall_Mount
+    100388: Restroom_Soap_Dispenser
+    100390: Restroom_Soapdish_High_Poly
+    100392: "r\xF6n"
+    100394: "r\xF6n2"
+    100396: serv0omed
+    100398: servo1
+    100400: servo2
+    100402: SimpleDome02
+    100404: Start / Stop
+    100406: Trashcan_Indoor
+    100408: Trashcan_Indoor 1
+    100410: Trashcan_Step
+    100412: Trashcan_Step 1
+    100414: Trashcan_Step 2
+    100416: Untitled(2)
+    400000: 12
+    400002: 12 1
+    400004: 2D_Man_Casual
+    400006: Air_Conditioning_Unit
+    400008: Alarm Grenzen
+    400010: Alarme Aus
+    400012: Alle Alarme Aus
+    400014: "Batterieladeger\xE4"
+    400016: Bild
+    400018: Caster Swivel
+    400020: Caster Swivel 1
+    400022: Caster Swivel 2
+    400024: Caster Swivel 3
+    400026: Caster Swivel 4
+    400028: Caster Swivel 5
+    400030: Caster Swivel 6
+    400032: Caster Swivel 7
+    400034: Caster Wheel
+    400036: Caster Wheel 1
+    400038: Caster Wheel 2
+    400040: Caster Wheel 3
+    400042: Caster Wheel 4
+    400044: Caster Wheel 5
+    400046: Caster Wheel 6
+    400048: Caster Wheel 7
+    400050: Clock_Wall_Simple
+    400052: Component#1
+    400054: Component#1 1
+    400056: Component#1 2
+    400058: Component#1 3
+    400060: D
+    400062: Door_3-0x6-8
+    400064: Door_3-0x6-8 1
+    400066: DoorKnob
+    400068: DoorKnob 1
+    400070: DoorKnob 2
+    400072: DoorKnob 3
+    400074: Doorknob_Round2
+    400076: Doorknob_Round2 1
+    400078: Doorknob_Round2 2
+    400080: Doorknob_Round2 3
+    400082: "Dr\xE4ger_Logo"
+    400084: "Dr\xE4ger_Logo 1"
+    400086: e-cylinder
+    400088: Filing_Lateral_30x19.75x29.75
+    400090: Filing_Lateral_30x19.75x29.75 1
+    400092: fin
+    400094: fin 1
+    400096: fin 10
+    400098: fin 11
+    400100: fin 12
+    400102: fin 13
+    400104: fin 14
+    400106: fin 15
+    400108: fin 16
+    400110: fin 17
+    400112: fin 18
+    400114: fin 19
+    400116: fin 2
+    400118: fin 20
+    400120: fin 21
+    400122: fin 22
+    400124: fin 23
+    400126: fin 24
+    400128: fin 25
+    400130: fin 26
+    400132: fin 27
+    400134: fin 28
+    400136: fin 29
+    400138: fin 3
+    400140: fin 30
+    400142: fin 31
+    400144: fin 32
+    400146: fin 33
+    400148: fin 34
+    400150: fin 35
+    400152: fin 36
+    400154: fin 37
+    400156: fin 38
+    400158: fin 39
+    400160: fin 4
+    400162: fin 40
+    400164: fin 41
+    400166: fin 42
+    400168: fin 43
+    400170: fin 44
+    400172: fin 5
+    400174: fin 6
+    400176: fin 7
+    400178: fin 8
+    400180: fin 9
+    400182: flucht
+    400184: FlushDoor36
+    400186: FlushDoor36 1
+    400188: GammaXL
+    400190: glas1
+    400192: Grill_18inx9in
+    400194: Grill_18inx9in 1
+    400196: Grill_18inx9in 10
+    400198: Grill_18inx9in 2
+    400200: Grill_18inx9in 3
+    400202: Grill_18inx9in 4
+    400204: Grill_18inx9in 5
+    400206: Grill_18inx9in 6
+    400208: Grill_18inx9in 7
+    400210: Grill_18inx9in 8
+    400212: Grill_18inx9in 9
+    400214: Group 155
+    400216: Group 179
+    400218: Group 238
+    400220: Group 240
+    400222: Group 242
+    400224: Group 244
+    400226: Group 246
+    400228: Group 288
+    400230: Group 302
+    400232: Group 316
+    400234: Group 330
+    400236: Group 344
+    400238: Group 358
+    400240: Group 372
+    400242: Group 386
+    400244: Group 400
+    400246: Group 62
+    400248: Group 64
+    400250: Group 66
+    400252: Group 68
+    400254: Group 70
+    400256: half
+    400258: half 1
+    400260: half 2
+    400262: half 3
+    400264: handle
+    400266: handle 1
+    400268: handle 2
+    400270: handle 3
+    400272: handle 4
+    400274: handle 5
+    400276: handle 6
+    400278: handle 7
+    400280: Hauptbild
+    400282: Heater_Baseboard_4ft
+    400284: //RootNode
+    400286: Infinity Gamma X
+    400288: IV_Pole
+    400290: IV_Pole 1
+    400292: joint
+    400294: joint 1
+    400296: Kopie
+    400298: LC-T121R8PU 12V,
+    400300: Light_Floor_Arco
+    400302: Light_Floor_Cable#1
+    400304: Light_Fluorescent_Ceiling_Grid_24x48
+    400306: Light_Fluorescent_Ceiling_Grid_24x48 1
+    400308: Light_Fluorescent_Ceiling_Grid_24x48 2
+    400310: Light_Fluorescent_Ceiling_Grid_24x48 3
+    400312: Light_Fluorescent_Ceiling_Grid_24x48 4
+    400314: Light_Fluorescent_Ceiling_Grid_24x48 5
+    400316: Light_Fluorescent_Ceiling_Grid_24x48 6
+    400318: Light_Fluorescent_Ceiling_Grid_24x48 7
+    400320: Light_Fluorescent_Ceiling_Grid_24x48 8
+    400322: "Men\xFC"
+    400324: NBP
+    400326: NBP Only !
+    400328: Notfall
+    400330: OP Saal
+    400332: OP-Lampe
+    400334: OP-Tisch
+    400336: Op-Tischchen
+    400338: Op-Tischchen 1
+    400340: Op-Tischchen 2
+    400342: Paper_Towel_Holder
+    400344: paper_towel_holder_quarter
+    400346: paper_towel_holder_quarter 1
+    400348: paper_towel_holder_quarter 2
+    400350: paper_towel_holder_quarter 3
+    400352: perf1
+    400354: perf1 1
+    400356: perf1 2
+    400358: perf1 3
+    400360: perf1 4
+    400362: pivot
+    400364: pivot 1
+    400366: pivot 2
+    400368: pivot 3
+    400370: pivot 4
+    400372: pivot 5
+    400374: pivot 6
+    400376: pivot 7
+    400378: pr
+    400380: Primus#1
+    400382: Primus#2
+    400384: Rechargeable Sea
+    400386: Restroom_Paper_Towel_Soap_Dispenser_Wall_Mount
+    400388: Restroom_Soap_Dispenser
+    400390: Restroom_Soapdish_High_Poly
+    400392: "r\xF6n"
+    400394: "r\xF6n2"
+    400396: serv0omed
+    400398: servo1
+    400400: servo2
+    400402: SimpleDome02
+    400404: Start / Stop
+    400406: Trashcan_Indoor
+    400408: Trashcan_Indoor 1
+    400410: Trashcan_Step
+    400412: Trashcan_Step 1
+    400414: Trashcan_Step 2
+    400416: Untitled(2)
+    2100000: _defaultMat
+    2100002: '[Color_000]'
+    2100004: '[Translucent_Glass_Sky_Reflection]'
+    2100006: _Gray6_
+    2100008: '[Celery]'
+    2100010: '[Color_I09]'
+    2100012: '[Metal_Aluminum_Anodized]'
+    2100014: _Gainsboro_
+    2100016: '[Color_D10]'
+    2100018: _LightGray_
+    2100020: _WhiteSmoke_
+    2100022: _Charcoal_
+    2100024: '[Translucent_Resin_Crush_Gray]'
+    2100026: _DarkGray_
+    2100028: _1
+    2100030: _CorrogateShiny_
+    2100032: _CorrogateShiny_1
+    2100034: '[Color_A10]'
+    2100036: '[Color_A10]1'
+    2100038: '[Color_A10]2'
+    2100040: _Snow_
+    2100042: _Tan_
+    2100044: _DarkGray_1
+    2100046: _Black_
+    2100048: _Ivory_
+    2100050: _CornflowerBlue_
+    2100052: _2
+    2100054: _Silver_
+    2100056: '[Metal_Seamed]'
+    2100058: Metal_Aluminum_Corrugated
+    2100060: '[Color_A03]'
+    2100062: '[Color_A02]'
+    2100064: _5
+    2100066: _3
+    2100068: Satin
+    2100070: _4
+    2100072: _15
+    2100074: _Gray Glass_1
+    2100076: _6
+    2100078: '[Color_006]'
+    2100080: '[Metal_Corrogated_Shiny]'
+    2100082: '[Blinds_Roman_Hobbled_Blue]'
+    2100084: '[Color_I13]'
+    2100086: '[Color_003]'
+    2100088: '[Translucent_Glass_Gray]'
+    2100090: '[Groundcover_Gravel_1inch]'
+    2100092: '[Color_C07]'
+    2100094: '[0076_Green]'
+    2100096: '[Color_007]'
+    2100098: '[Color_E06]'
+    2100100: '[Blinds_Roman_Hobbled_Blue]1'
+    2100102: '[Color_C01]'
+    2100104: '[Color_005]'
+    2100106: '[Color_A06]'
+    2100108: '[Color_001]'
+    2100110: _CoolGray4_
+    2100112: '[Color_A07]'
+    2100114: _Beige_1
+    2100116: _Burnt Umber_1
+    2100118: _Beige_2
+    2100120: jean blue
+    2100122: _LightYellow_
+    2100124: _Ivory_1
+    2300000: 12
+    2300002: 12 1
+    2300004: 2D_Man_Casual
+    2300006: Air_Conditioning_Unit
+    2300008: Alarm Grenzen
+    2300010: Alarme Aus
+    2300012: Alle Alarme Aus
+    2300014: "Batterieladeger\xE4"
+    2300016: Bild
+    2300018: Caster Swivel
+    2300020: Caster Swivel 1
+    2300022: Caster Swivel 2
+    2300024: Caster Swivel 3
+    2300026: Caster Swivel 4
+    2300028: Caster Swivel 5
+    2300030: Caster Swivel 6
+    2300032: Caster Swivel 7
+    2300034: Caster Wheel
+    2300036: Caster Wheel 1
+    2300038: Caster Wheel 2
+    2300040: Caster Wheel 3
+    2300042: Caster Wheel 4
+    2300044: Caster Wheel 5
+    2300046: Caster Wheel 6
+    2300048: Caster Wheel 7
+    2300050: Clock_Wall_Simple
+    2300052: D
+    2300054: Door_3-0x6-8
+    2300056: Door_3-0x6-8 1
+    2300058: DoorKnob
+    2300060: DoorKnob 1
+    2300062: DoorKnob 2
+    2300064: DoorKnob 3
+    2300066: Doorknob_Round2
+    2300068: Doorknob_Round2 1
+    2300070: Doorknob_Round2 2
+    2300072: Doorknob_Round2 3
+    2300074: "Dr\xE4ger_Logo"
+    2300076: "Dr\xE4ger_Logo 1"
+    2300078: e-cylinder
+    2300080: fin
+    2300082: fin 1
+    2300084: fin 10
+    2300086: fin 11
+    2300088: fin 12
+    2300090: fin 13
+    2300092: fin 14
+    2300094: fin 15
+    2300096: fin 16
+    2300098: fin 17
+    2300100: fin 18
+    2300102: fin 19
+    2300104: fin 2
+    2300106: fin 20
+    2300108: fin 21
+    2300110: fin 22
+    2300112: fin 23
+    2300114: fin 24
+    2300116: fin 25
+    2300118: fin 26
+    2300120: fin 27
+    2300122: fin 28
+    2300124: fin 29
+    2300126: fin 3
+    2300128: fin 30
+    2300130: fin 31
+    2300132: fin 32
+    2300134: fin 33
+    2300136: fin 34
+    2300138: fin 35
+    2300140: fin 36
+    2300142: fin 37
+    2300144: fin 38
+    2300146: fin 39
+    2300148: fin 4
+    2300150: fin 40
+    2300152: fin 41
+    2300154: fin 42
+    2300156: fin 43
+    2300158: fin 44
+    2300160: fin 5
+    2300162: fin 6
+    2300164: fin 7
+    2300166: fin 8
+    2300168: fin 9
+    2300170: flucht
+    2300172: FlushDoor36
+    2300174: FlushDoor36 1
+    2300176: GammaXL
+    2300178: Grill_18inx9in
+    2300180: Grill_18inx9in 1
+    2300182: Grill_18inx9in 10
+    2300184: Grill_18inx9in 2
+    2300186: Grill_18inx9in 3
+    2300188: Grill_18inx9in 4
+    2300190: Grill_18inx9in 5
+    2300192: Grill_18inx9in 6
+    2300194: Grill_18inx9in 7
+    2300196: Grill_18inx9in 8
+    2300198: Grill_18inx9in 9
+    2300200: Group 155
+    2300202: Group 179
+    2300204: Group 238
+    2300206: Group 240
+    2300208: Group 242
+    2300210: Group 244
+    2300212: Group 246
+    2300214: Group 288
+    2300216: Group 302
+    2300218: Group 316
+    2300220: Group 330
+    2300222: Group 344
+    2300224: Group 358
+    2300226: Group 372
+    2300228: Group 386
+    2300230: Group 400
+    2300232: Group 62
+    2300234: Group 64
+    2300236: Group 66
+    2300238: Group 68
+    2300240: Group 70
+    2300242: half
+    2300244: half 1
+    2300246: half 2
+    2300248: half 3
+    2300250: handle
+    2300252: handle 1
+    2300254: handle 2
+    2300256: handle 3
+    2300258: handle 4
+    2300260: handle 5
+    2300262: handle 6
+    2300264: handle 7
+    2300266: Hauptbild
+    2300268: Heater_Baseboard_4ft
+    2300270: //RootNode
+    2300272: Infinity Gamma X
+    2300274: IV_Pole
+    2300276: IV_Pole 1
+    2300278: joint
+    2300280: joint 1
+    2300282: Kopie
+    2300284: LC-T121R8PU 12V,
+    2300286: Light_Floor_Arco
+    2300288: Light_Floor_Cable#1
+    2300290: Light_Fluorescent_Ceiling_Grid_24x48
+    2300292: Light_Fluorescent_Ceiling_Grid_24x48 1
+    2300294: Light_Fluorescent_Ceiling_Grid_24x48 2
+    2300296: Light_Fluorescent_Ceiling_Grid_24x48 3
+    2300298: Light_Fluorescent_Ceiling_Grid_24x48 4
+    2300300: Light_Fluorescent_Ceiling_Grid_24x48 5
+    2300302: Light_Fluorescent_Ceiling_Grid_24x48 6
+    2300304: Light_Fluorescent_Ceiling_Grid_24x48 7
+    2300306: Light_Fluorescent_Ceiling_Grid_24x48 8
+    2300308: "Men\xFC"
+    2300310: NBP
+    2300312: NBP Only !
+    2300314: Notfall
+    2300316: OP Saal
+    2300318: OP-Lampe
+    2300320: OP-Tisch
+    2300322: Op-Tischchen
+    2300324: Op-Tischchen 1
+    2300326: Op-Tischchen 2
+    2300328: Paper_Towel_Holder
+    2300330: paper_towel_holder_quarter
+    2300332: paper_towel_holder_quarter 1
+    2300334: paper_towel_holder_quarter 2
+    2300336: paper_towel_holder_quarter 3
+    2300338: perf1
+    2300340: perf1 1
+    2300342: perf1 2
+    2300344: perf1 3
+    2300346: perf1 4
+    2300348: pivot
+    2300350: pivot 1
+    2300352: pivot 2
+    2300354: pivot 3
+    2300356: pivot 4
+    2300358: pivot 5
+    2300360: pivot 6
+    2300362: pivot 7
+    2300364: pr
+    2300366: Primus#1
+    2300368: Primus#2
+    2300370: Rechargeable Sea
+    2300372: Restroom_Paper_Towel_Soap_Dispenser_Wall_Mount
+    2300374: Restroom_Soap_Dispenser
+    2300376: Restroom_Soapdish_High_Poly
+    2300378: "r\xF6n"
+    2300380: "r\xF6n2"
+    2300382: serv0omed
+    2300384: servo1
+    2300386: servo2
+    2300388: SimpleDome02
+    2300390: Start / Stop
+    2300392: Trashcan_Indoor
+    2300394: Trashcan_Indoor 1
+    2300396: Trashcan_Step
+    2300398: Trashcan_Step 1
+    2300400: Trashcan_Step 2
+    3300000: 12
+    3300002: 12 1
+    3300004: 2D_Man_Casual
+    3300006: Air_Conditioning_Unit
+    3300008: Alarm Grenzen
+    3300010: Alarme Aus
+    3300012: Alle Alarme Aus
+    3300014: "Batterieladeger\xE4"
+    3300016: Bild
+    3300018: Caster Swivel
+    3300020: Caster Swivel 1
+    3300022: Caster Swivel 2
+    3300024: Caster Swivel 3
+    3300026: Caster Swivel 4
+    3300028: Caster Swivel 5
+    3300030: Caster Swivel 6
+    3300032: Caster Swivel 7
+    3300034: Caster Wheel
+    3300036: Caster Wheel 1
+    3300038: Caster Wheel 2
+    3300040: Caster Wheel 3
+    3300042: Caster Wheel 4
+    3300044: Caster Wheel 5
+    3300046: Caster Wheel 6
+    3300048: Caster Wheel 7
+    3300050: Clock_Wall_Simple
+    3300052: D
+    3300054: Door_3-0x6-8
+    3300056: Door_3-0x6-8 1
+    3300058: DoorKnob
+    3300060: DoorKnob 1
+    3300062: DoorKnob 2
+    3300064: DoorKnob 3
+    3300066: Doorknob_Round2
+    3300068: Doorknob_Round2 1
+    3300070: Doorknob_Round2 2
+    3300072: Doorknob_Round2 3
+    3300074: "Dr\xE4ger_Logo"
+    3300076: "Dr\xE4ger_Logo 1"
+    3300078: e-cylinder
+    3300080: fin
+    3300082: fin 1
+    3300084: fin 10
+    3300086: fin 11
+    3300088: fin 12
+    3300090: fin 13
+    3300092: fin 14
+    3300094: fin 15
+    3300096: fin 16
+    3300098: fin 17
+    3300100: fin 18
+    3300102: fin 19
+    3300104: fin 2
+    3300106: fin 20
+    3300108: fin 21
+    3300110: fin 22
+    3300112: fin 23
+    3300114: fin 24
+    3300116: fin 25
+    3300118: fin 26
+    3300120: fin 27
+    3300122: fin 28
+    3300124: fin 29
+    3300126: fin 3
+    3300128: fin 30
+    3300130: fin 31
+    3300132: fin 32
+    3300134: fin 33
+    3300136: fin 34
+    3300138: fin 35
+    3300140: fin 36
+    3300142: fin 37
+    3300144: fin 38
+    3300146: fin 39
+    3300148: fin 4
+    3300150: fin 40
+    3300152: fin 41
+    3300154: fin 42
+    3300156: fin 43
+    3300158: fin 44
+    3300160: fin 5
+    3300162: fin 6
+    3300164: fin 7
+    3300166: fin 8
+    3300168: fin 9
+    3300170: flucht
+    3300172: FlushDoor36
+    3300174: FlushDoor36 1
+    3300176: GammaXL
+    3300178: Grill_18inx9in
+    3300180: Grill_18inx9in 1
+    3300182: Grill_18inx9in 10
+    3300184: Grill_18inx9in 2
+    3300186: Grill_18inx9in 3
+    3300188: Grill_18inx9in 4
+    3300190: Grill_18inx9in 5
+    3300192: Grill_18inx9in 6
+    3300194: Grill_18inx9in 7
+    3300196: Grill_18inx9in 8
+    3300198: Grill_18inx9in 9
+    3300200: Group 155
+    3300202: Group 179
+    3300204: Group 238
+    3300206: Group 240
+    3300208: Group 242
+    3300210: Group 244
+    3300212: Group 246
+    3300214: Group 288
+    3300216: Group 302
+    3300218: Group 316
+    3300220: Group 330
+    3300222: Group 344
+    3300224: Group 358
+    3300226: Group 372
+    3300228: Group 386
+    3300230: Group 400
+    3300232: Group 62
+    3300234: Group 64
+    3300236: Group 66
+    3300238: Group 68
+    3300240: Group 70
+    3300242: half
+    3300244: half 1
+    3300246: half 2
+    3300248: half 3
+    3300250: handle
+    3300252: handle 1
+    3300254: handle 2
+    3300256: handle 3
+    3300258: handle 4
+    3300260: handle 5
+    3300262: handle 6
+    3300264: handle 7
+    3300266: Hauptbild
+    3300268: Heater_Baseboard_4ft
+    3300270: //RootNode
+    3300272: Infinity Gamma X
+    3300274: IV_Pole
+    3300276: IV_Pole 1
+    3300278: joint
+    3300280: joint 1
+    3300282: Kopie
+    3300284: LC-T121R8PU 12V,
+    3300286: Light_Floor_Arco
+    3300288: Light_Floor_Cable#1
+    3300290: Light_Fluorescent_Ceiling_Grid_24x48
+    3300292: Light_Fluorescent_Ceiling_Grid_24x48 1
+    3300294: Light_Fluorescent_Ceiling_Grid_24x48 2
+    3300296: Light_Fluorescent_Ceiling_Grid_24x48 3
+    3300298: Light_Fluorescent_Ceiling_Grid_24x48 4
+    3300300: Light_Fluorescent_Ceiling_Grid_24x48 5
+    3300302: Light_Fluorescent_Ceiling_Grid_24x48 6
+    3300304: Light_Fluorescent_Ceiling_Grid_24x48 7
+    3300306: Light_Fluorescent_Ceiling_Grid_24x48 8
+    3300308: "Men\xFC"
+    3300310: NBP
+    3300312: NBP Only !
+    3300314: Notfall
+    3300316: OP Saal
+    3300318: OP-Lampe
+    3300320: OP-Tisch
+    3300322: Op-Tischchen
+    3300324: Op-Tischchen 1
+    3300326: Op-Tischchen 2
+    3300328: Paper_Towel_Holder
+    3300330: paper_towel_holder_quarter
+    3300332: paper_towel_holder_quarter 1
+    3300334: paper_towel_holder_quarter 2
+    3300336: paper_towel_holder_quarter 3
+    3300338: perf1
+    3300340: perf1 1
+    3300342: perf1 2
+    3300344: perf1 3
+    3300346: perf1 4
+    3300348: pivot
+    3300350: pivot 1
+    3300352: pivot 2
+    3300354: pivot 3
+    3300356: pivot 4
+    3300358: pivot 5
+    3300360: pivot 6
+    3300362: pivot 7
+    3300364: pr
+    3300366: Primus#1
+    3300368: Primus#2
+    3300370: Rechargeable Sea
+    3300372: Restroom_Paper_Towel_Soap_Dispenser_Wall_Mount
+    3300374: Restroom_Soap_Dispenser
+    3300376: Restroom_Soapdish_High_Poly
+    3300378: "r\xF6n"
+    3300380: "r\xF6n2"
+    3300382: serv0omed
+    3300384: servo1
+    3300386: servo2
+    3300388: SimpleDome02
+    3300390: Start / Stop
+    3300392: Trashcan_Indoor
+    3300394: Trashcan_Indoor 1
+    3300396: Trashcan_Step
+    3300398: Trashcan_Step 1
+    3300400: Trashcan_Step 2
+    4300000: Mesh hospital (1)
+    4300002: Mesh OP Saal
+    4300004: Mesh Door_3-0x6-8
+    4300006: Mesh FlushDoor36
+    4300008: Mesh DoorKnob
+    4300010: Mesh Grill_18inx9in
+    4300012: Mesh Heater_Baseboard_4ft
+    4300014: Mesh Air_Conditioning_Unit
+    4300016: Mesh Doorknob_Round2
+    4300018: "Mesh r\xF6n2"
+    4300020: "Mesh r\xF6n"
+    4300022: Mesh flucht
+    4300024: Mesh IV_Pole
+    4300026: Mesh Group 62
+    4300028: Mesh Group 64
+    4300030: Mesh Group 66
+    4300032: Mesh Group 68
+    4300034: Mesh Group 70
+    4300036: Mesh Caster Wheel
+    4300038: Mesh Caster Swivel
+    4300040: Mesh pivot
+    4300042: Mesh Trashcan_Indoor
+    4300044: Mesh Paper_Towel_Holder
+    4300046: Mesh paper_towel_holder_quarter
+    4300048: Mesh Trashcan_Step
+    4300050: Mesh Restroom_Paper_Towel_Soap_Dispenser_Wall_Mount
+    4300052: Mesh Restroom_Soap_Dispenser
+    4300054: Mesh Restroom_Soapdish_High_Poly
+    4300056: Mesh Clock_Wall_Simple
+    4300058: Mesh half
+    4300060: Mesh handle
+    4300062: Mesh serv0omed
+    4300064: Mesh servo1
+    4300066: Mesh servo2
+    4300068: Mesh Group 155
+    4300070: Mesh OP-Tisch
+    4300072: Mesh Op-Tischchen
+    4300074: Mesh Primus#2
+    4300076: Mesh pr
+    4300078: Mesh 12
+    4300080: Mesh D
+    4300082: Mesh Primus#1
+    4300084: Mesh Light_Floor_Arco
+    4300086: Mesh Group 179
+    4300088: Mesh e-cylinder
+    4300090: Mesh GammaXL
+    4300092: "Mesh Dr\xE4ger_Logo"
+    4300094: Mesh Rechargeable Sea
+    4300096: Mesh LC-T121R8PU 12V,
+    4300098: Mesh NBP Only !
+    4300100: Mesh Infinity Gamma X
+    4300102: Mesh SimpleDome02
+    4300104: Mesh Alle Alarme Aus
+    4300106: Mesh Notfall
+    4300108: Mesh Alarm Grenzen
+    4300110: Mesh NBP
+    4300112: Mesh Start / Stop
+    4300114: Mesh Alarme Aus
+    4300116: Mesh Bild
+    4300118: Mesh Kopie
+    4300120: "Mesh Batterieladeger\xE4"
+    4300122: "Mesh Men\xFC"
+    4300124: Mesh Hauptbild
+    4300126: Mesh Light_Floor_Cable#1
+    4300128: Mesh joint
+    4300130: Mesh perf1
+    4300132: Mesh 2D_Man_Casual
+    4300134: Mesh OP-Lampe
+    4300136: Mesh Light_Fluorescent_Ceiling_Grid_24x48
+    4300138: Mesh Group 288
+    4300140: Mesh fin
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
