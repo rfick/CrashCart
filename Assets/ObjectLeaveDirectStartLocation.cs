@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ObjectLeaveDirectStartLocation : MonoBehaviour {
     Vector3 startPosition;
+    Quaternion startRotation;
     GameObject grabbedObjectLast ;
     public GameObject handOver;
     // Use this for initialization
@@ -16,6 +17,7 @@ public class ObjectLeaveDirectStartLocation : MonoBehaviour {
     
 	void Start () {
         startPosition = this.transform.localPosition;
+        startRotation = this.transform.localRotation;
         isGrabbed = false;
         grabbedObjectLast = this.gameObject;
         // parentObject = this.parentObject;
@@ -58,22 +60,26 @@ public class ObjectLeaveDirectStartLocation : MonoBehaviour {
             //Debug.Log("is grabbed true!!!");
             transform.parent = parentObject;
             if (!canHandOverObject)
+            {
                 grabbedObjectLast.transform.localPosition = startPosition;
+                grabbedObjectLast.transform.localRotation = startRotation;
+            }
             else
             {
                 // this.gameObject.SetActive(false);
                 if (this.gameObject == GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().gameObjectToFind)
                 {
                     GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().gameObjectToFind = null;//this triggers find the next object!
-                  
+
                     GameObject.Find("Timer").GetComponent<StopWatchTimer>().addTimer(grabbedObjectLast);
                     grabbedObjectLast.SetActive(false);
                 }
                 else
                 {
                     grabbedObjectLast.transform.localPosition = startPosition;
+                    grabbedObjectLast.transform.localRotation = startRotation;
                 }
-                
+
             }
             //this.transform.localPosition = startPosition;
             
@@ -85,11 +91,10 @@ public class ObjectLeaveDirectStartLocation : MonoBehaviour {
             //Debug.Log("is grabbed false!!!");
             // this.transform.localPosition = startPosition;
            
-                startPosition = this.transform.localPosition;
+                //startPosition = this.transform.localPosition;
               
         }
-        
-	}
+    }
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("is this even working?");

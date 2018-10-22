@@ -66,6 +66,8 @@ public class OVRGrabber : MonoBehaviour
     protected Quaternion m_grabbedObjectRotOff;
 	protected Dictionary<OVRGrabbable, int> m_grabCandidates = new Dictionary<OVRGrabbable, int>();
 	protected bool operatingWithoutOVRCameraRig = true;
+    protected string currentlyGrabbedObjectName;
+    protected bool holdingObject = false;
 
     /// <summary>
     /// The currently grabbed object.
@@ -103,6 +105,8 @@ public class OVRGrabber : MonoBehaviour
 			rig.UpdatedAnchors += (r) => {OnUpdatedAnchors();};
 			operatingWithoutOVRCameraRig = false;
 		}
+
+        holdingObject = false;
     }
 
     protected virtual void Start()
@@ -156,6 +160,7 @@ public class OVRGrabber : MonoBehaviour
         float closestMagSq = float.MaxValue;
         OVRGrabbable closestGrabbable = null;
         Collider closestGrabbableCollider = null;
+        Vector3 closestPointOnBounds = Vector3.zero;
 
         // Iterate grab candidates and find the closest grabbable candidate
         foreach (OVRGrabbable grabbable in m_grabCandidates.Keys)
@@ -164,7 +169,7 @@ public class OVRGrabber : MonoBehaviour
             {
                 Collider grabbableCollider = grabbable.grabPoints[j];
                 // Store the closest grabbable
-                Vector3 closestPointOnBounds = grabbableCollider.ClosestPointOnBounds(m_gripTransform.position);
+                closestPointOnBounds = grabbableCollider.ClosestPointOnBounds(m_gripTransform.position);
                 float grabbableMagSq = (m_gripTransform.position - closestPointOnBounds).sqrMagnitude;
                 if (grabbableMagSq < closestMagSq)
                 {
@@ -189,6 +194,22 @@ public class OVRGrabber : MonoBehaviour
                 GameObject questionText = GameObject.Find("CollidedObjectTextRight");
                 TextMesh questionTextMesh = questionText.GetComponent<TextMesh>();
                 questionTextMesh.text = closestGrabbable.name;
+            }
+        }
+        else if (holdingObject)
+        {
+            // Update collided object text
+            if (string.Equals(gameObject.name, "LeftHandAnchor"))
+            {
+                GameObject questionText = GameObject.Find("CollidedObjectTextLeft");
+                TextMesh questionTextMesh = questionText.GetComponent<TextMesh>();
+                questionTextMesh.text = currentlyGrabbedObjectName;
+            }
+            else if (string.Equals(gameObject.name, "RightHandAnchor"))
+            {
+                GameObject questionText = GameObject.Find("CollidedObjectTextRight");
+                TextMesh questionTextMesh = questionText.GetComponent<TextMesh>();
+                questionTextMesh.text = currentlyGrabbedObjectName;
             }
         }
         else
@@ -309,6 +330,9 @@ public class OVRGrabber : MonoBehaviour
             m_grabbedObj = closestGrabbable;
             m_grabbedObj.GrabBegin(this, closestGrabbableCollider);
 
+            currentlyGrabbedObjectName = m_grabbedObj.name;
+            holdingObject = true;
+
             m_lastPos = transform.position;
             m_lastRot = transform.rotation;
 
@@ -394,6 +418,8 @@ public class OVRGrabber : MonoBehaviour
 			Vector3 angularVelocity = trackingSpace.orientation * OVRInput.GetLocalControllerAngularVelocity(m_controller);
 
             GrabbableRelease(linearVelocity, angularVelocity);
+
+            holdingObject = false;
         }
 
         // Re-enable grab volumes to allow overlap events
