@@ -636,12 +636,14 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Build: 1
     Collab: 1
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: e2f657ea-072d-48fd-8d01-cbd5ab0160f4
+  cloudProjectId: 4adfc2b3-a635-4657-828a-638db78c39b4
   projectName: OCRASSETSTORETEMPNEW
-  organizationId: rfick
+  organizationId: zjwujim
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
