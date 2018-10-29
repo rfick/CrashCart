@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 457a138bf1398144ca8517cd457681a3
+timeCreated: 1540827403
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cap_High_Poly
+    100002: Cap_High_Poly001
+    100004: Cap_High_Poly002
+    100006: Glass
+    100008: Glass001
+    100010: Glass002
+    100012: Spiral
+    100014: Spiral001
+    100016: Spiral002
+    100018: Spiral_Glass
+    100020: Spiral_Glass001
+    100022: Spiral_Glass002
+    100024: //RootNode
+    400000: Cap_High_Poly
+    400002: Cap_High_Poly001
+    400004: Cap_High_Poly002
+    400006: Glass
+    400008: Glass001
+    400010: Glass002
+    400012: Spiral
+    400014: Spiral001
+    400016: Spiral002
+    400018: Spiral_Glass
+    400020: Spiral_Glass001
+    400022: Spiral_Glass002
+    400024: //RootNode
+    2100000: Glass
+    2100002: Spiral
+    2100004: Spiral_Glass
+    2100006: Cap
+    2300000: Cap_High_Poly
+    2300002: Cap_High_Poly001
+    2300004: Cap_High_Poly002
+    2300006: Glass
+    2300008: Glass001
+    2300010: Glass002
+    2300012: Spiral
+    2300014: Spiral001
+    2300016: Spiral002
+    2300018: Spiral_Glass
+    2300020: Spiral_Glass001
+    2300022: Spiral_Glass002
+    3300000: Cap_High_Poly
+    3300002: Cap_High_Poly001
+    3300004: Cap_High_Poly002
+    3300006: Glass
+    3300008: Glass001
+    3300010: Glass002
+    3300012: Spiral
+    3300014: Spiral001
+    3300016: Spiral002
+    3300018: Spiral_Glass
+    3300020: Spiral_Glass001
+    3300022: Spiral_Glass002
+    4300000: Glass
+    4300002: Spiral
+    4300004: Spiral_Glass
+    4300006: Cap_High_Poly
+    4300008: Cap_High_Poly001
+    4300010: Glass001
+    4300012: Spiral001
+    4300014: Spiral_Glass001
+    4300016: Cap_High_Poly002
+    4300018: Glass002
+    4300020: Spiral002
+    4300022: Spiral_Glass002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

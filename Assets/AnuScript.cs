@@ -23,10 +23,16 @@ public class AnuScript : MonoBehaviour {
         totalTime = 0f;
        foreach(GameObject drawer in drawers )// find the objects inside the drawers!
         {
-            Transform[] allChildren = drawer.GetComponentsInChildren<Transform>();// the objects are children of the drawer
-            foreach(Transform child in allChildren)
+            //Transform[] allChildren = drawer.GetComponentsInChildren<Transform>();// the objects are children of the drawer
+            List<Transform> allChildren = new List<Transform>();
+            foreach (Transform trans in drawer.transform)
             {
-                if (child.name.IndexOf('#') < 0)
+                allChildren.Add(trans);
+            }
+            Transform[] allChildrenArray = allChildren.ToArray();
+            foreach (Transform child in allChildrenArray)
+            {
+                if (child.name.IndexOf('#') < 0 && child.gameObject.activeSelf)
                 {
                     itemsInCart.Add(child.gameObject);
                 }
@@ -91,7 +97,7 @@ public class AnuScript : MonoBehaviour {
                     }
                     audioSource.clip = gameObjectToFind.GetComponent<ObjectLeaveDirectStartLocation>().audioQuestion;
                     audioSource.Play();
-
+                    GameObject.Find("Timer").GetComponent<StopWatchTimer>().searchForObject();
 
 
                 }

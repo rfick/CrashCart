@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObjectLeaveDirectStartLocation : MonoBehaviour {
     Vector3 startPosition;
     Quaternion startRotation;
+    Vector3 startScale;
     GameObject grabbedObjectLast ;
     public GameObject handOver;
     // Use this for initialization
@@ -18,6 +19,7 @@ public class ObjectLeaveDirectStartLocation : MonoBehaviour {
 	void Start () {
         startPosition = this.transform.localPosition;
         startRotation = this.transform.localRotation;
+        startScale = this.transform.localScale;
         isGrabbed = false;
         grabbedObjectLast = this.gameObject;
         // parentObject = this.parentObject;
@@ -36,13 +38,13 @@ public class ObjectLeaveDirectStartLocation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
-        if ((GameObject.Find("LeftHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject!=null && GameObject.Find("LeftHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject.name==this.gameObject.name)|| (GameObject.Find("RightHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject != null && GameObject.Find("RightHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject.name == this.gameObject.name))
+        double eps = 0.000001;
+        if ((GameObject.Find("LeftHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject!=null && Vector3.Distance(GameObject.Find("LeftHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject.transform.position, this.gameObject.transform.position) < eps || (GameObject.Find("RightHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject != null && Vector3.Distance(GameObject.Find("RightHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject.transform.position, this.gameObject.transform.position) < eps)))
         {
             // we store grabbedObjectLast as the object changes when we grab it so it is not the same object as the one that was grabbed.
             isGrabbed = true;
             //Debug.Log("is grabbed reached!!!");
-            if((GameObject.Find("LeftHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject != null && GameObject.Find("LeftHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject.name == this.gameObject.name))
+            if((GameObject.Find("LeftHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject != null && Vector3.Distance(GameObject.Find("LeftHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject.transform.position, this.gameObject.transform.position) < eps))
             {
                 grabbedObjectLast = GameObject.Find("LeftHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject != null ? GameObject.Find("LeftHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject : GameObject.Find("RightHandAnchor").gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject;
             }
@@ -63,11 +65,11 @@ public class ObjectLeaveDirectStartLocation : MonoBehaviour {
             {
                 grabbedObjectLast.transform.localPosition = startPosition;
                 grabbedObjectLast.transform.localRotation = startRotation;
+                grabbedObjectLast.transform.localScale = startScale;
             }
             else
             {
-                // this.gameObject.SetActive(false);
-                if (this.gameObject == GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().gameObjectToFind)
+                if (string.Equals(this.gameObject.name,GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().gameObjectToFind.name))
                 {
                     GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().gameObjectToFind = null;//this triggers find the next object!
 
@@ -78,6 +80,7 @@ public class ObjectLeaveDirectStartLocation : MonoBehaviour {
                 {
                     grabbedObjectLast.transform.localPosition = startPosition;
                     grabbedObjectLast.transform.localRotation = startRotation;
+                    grabbedObjectLast.transform.localScale = startScale;
                 }
 
             }
