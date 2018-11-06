@@ -218,12 +218,12 @@ public class TutorialScript : MonoBehaviour
             {
                 if (GameObject.Find("heart") != null)
                     GameObject.Find("heart").transform.localScale = new Vector3(0, 0, 0);
-                display.GetComponent<TextMesh>().text = "move to the green area\nto begin";
-                playSoundTutorial9();
+                display.GetComponent<TextMesh>().text = "Get ready!";
+                //playSoundTutorial9();
                 GameObject.Find("OculusTouchR").transform.localScale = new Vector3(0, 0, 0);
                 GameObject.Find("OculusTouchL").transform.localScale = new Vector3(0, 0, 0);
                 GameObject playerController = GameObject.Find("OVRPlayerController").gameObject;
-                playerController.transform.position = new Vector3(-5.76f, playerController.transform.position.y, 5.47f);
+                playerController.transform.position = new Vector3(-4.296f, playerController.transform.position.y, 2.721f);
                 // playerController.transform.rotation.SetEulerAngles(0, -285, 0);
                 Vector3 eulerAngle = playerController.transform.eulerAngles;
                 eulerAngle.y = -285;

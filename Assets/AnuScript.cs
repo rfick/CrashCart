@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnuScript : MonoBehaviour {
     float staticY;
     int counter = 1000;
-    bool startQuestionnaireSession;
+    public bool startQuestionnaireSession;
     BoxCollider startPoint;
     public int numberOfQuestion;
     // Use this for initialization
@@ -14,12 +14,14 @@ public class AnuScript : MonoBehaviour {
     public GameObject gameObjectToFind;
     public GameObject collideObject;
     public string name;
+    public bool countdown;
     public List<string> playerRecords;
     bool savePlayerPref;
     public AudioSource audioSource;
     float totalTime;
 	void Start () {
         savePlayerPref = true;
+        countdown = false;
         totalTime = 0f;
        foreach(GameObject drawer in drawers )// find the objects inside the drawers!
         {
@@ -65,15 +67,15 @@ public class AnuScript : MonoBehaviour {
             playerRecords.Add(savedListArray[i]+" and values are "+PlayerPrefs.GetString(savedListArray[i]));
         }
         
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        if(!startQuestionnaireSession)// did the person reach the green arrow?
+        if(!startQuestionnaireSession && !countdown)// did the person reach the green arrow?
         {
             checkStartQuestionnaire();
         }
-        else
+        else if(!countdown)
         {
            // Debug.Log("1");
             if(gameObjectToFind==null)
@@ -108,7 +110,7 @@ public class AnuScript : MonoBehaviour {
                     TextMesh questionTextMesh = questionText.GetComponent<TextMesh>();
                     questionTextMesh.text = "Congratulations";
                     GameObject.Find("Timer").GetComponent<StopWatchTimer>().recordTime = false;
-                    GameObject.Find("Timer").GetComponent<TextMesh>().text = "Total Time \n"+GameObject.Find("Timer").GetComponent<StopWatchTimer>().finalTimer.ToString();
+                    GameObject.Find("Timer").GetComponent<TextMesh>().text = "Total Time \n"+GameObject.Find("Timer").GetComponent<StopWatchTimer>().getFinalTimer();
                    // GameObject.Find("Timer").GetComponent<StopWatchTimer>().timerValue = 0f;
                     if (savePlayerPref)
                     {
@@ -181,10 +183,12 @@ public class AnuScript : MonoBehaviour {
         //Debug.Log(collideObject.transform.position);
         if((startPoint.size.x/2+startPoint.transform.position.x)> collideObject.transform.position.x&& (startPoint.transform.position.x-startPoint.size.x / 2 ) < collideObject.transform.position.x&& (startPoint.size.z / 2 + startPoint.transform.position.z) > collideObject.transform.position.z && (startPoint.transform.position.z-startPoint.size.z / 2 ) < collideObject.transform.position.z)
         {
-            startQuestionnaireSession = true;
+            //startQuestionnaireSession = true;
             Debug.Log("Questions start!!!!!!!!!!!!!!!!!!");
             GameObject cartPlane = GameObject.Find("Cart_Plane");
             GameObject.Find("Timer").GetComponent<StopWatchTimer>().toggleTimerOnOff();
+            GameObject.Find("Timer").GetComponent<StopWatchTimer>().startCountdown();
+            countdown = true;
             if (cartPlane!=null)
             {
                 cartPlane.SetActive(false);

@@ -9,22 +9,35 @@ public class StopWatchTimer : MonoBehaviour {
     public float timerValue;
     public List<float> timerStorage = new List<float>();
     public List<GameObject> gameObjectStorage = new List<GameObject>();
-    public float finalTimer;
+    private float finalTimer;
     public float objectStartTime;
     public bool activeSearch;
+    public bool countdown;
     public float giveUpTime = 15;
-	// Use this for initialization
-	void Start () {
+    private GameObject drawer;
+    // Use this for initialization
+    void Start () {
         restartTimer = false;
         recordTime = false;
         activeSearch = true;
+        countdown = false;
         timerValue = 0f;
         finalTimer = 0f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if(recordTime && activeSearch)
+        if (countdown)
+        {
+            timerValue = timerValue - Time.deltaTime;
+            if(timerValue <= 0f)
+            {
+                countdown = false;
+                GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().startQuestionnaireSession = true;
+                GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().countdown = false;
+            }
+        }
+        else if(recordTime && activeSearch)
         {
             timerValue = timerValue + Time.deltaTime;
             if ((timerValue - objectStartTime) > giveUpTime)
@@ -33,22 +46,16 @@ public class StopWatchTimer : MonoBehaviour {
                 // Code to display answer
                 Debug.Log("Timeout, displaying answer");
                 GameObject answerObject = GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().gameObjectToFind;
-                GameObject activatedLight = answerObject.transform.Find("Point Light").gameObject;
+                GameObject activatedLight = answerObject.transform.Find("Spot Light").gameObject;
                 activatedLight.SetActive(true);
 
-                GameObject drawer = answerObject.transform.parent.gameObject;
-                Renderer rend = drawer.GetComponent<Renderer>();
-                rend.sharedMaterial = (Material)Resources.Load("DrawerMaterialOutlined", typeof(Material));
+                drawer = answerObject.transform.parent.gameObject;
+                drawer.GetComponent<ChangeMaterial>().onTimerEnd();
             }
-        }
-        else
-        {
-            timerValue = 0f;
         }
         TextMesh t = GetComponent<TextMesh>();
         if(timerValue!=0f)
             t.text = timerValue.ToString("0.00")+"";
-
 
 		
 	}
@@ -62,14 +69,29 @@ public class StopWatchTimer : MonoBehaviour {
     public void toggleTimerOnOff()
     {
         recordTime = !recordTime;
-        
     }
+
+    public string getFinalTimer()
+    {
+        return finalTimer.ToString();
+    }
+
+    public void startCountdown()
+    {
+        countdown = true;
+        timerValue = 5; //5 second countdown
+    }
+
     public void addTimer( GameObject gameObject)
     {
         timerStorage.Add(timerValue);
         finalTimer += timerValue;
         gameObjectStorage.Add(gameObject);
         timerValue = 0;
+        if (drawer)
+        {
+            drawer.GetComponent<ChangeMaterial>().onTimerReset();
+        }
     }
     
 }

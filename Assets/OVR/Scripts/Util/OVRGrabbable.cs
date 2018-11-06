@@ -122,9 +122,21 @@ public class OVRGrabbable : MonoBehaviour
         m_grabbedBy = hand;
         m_grabbedCollider = grabPoint;
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
-        
+        //GameObject activatedLight = this.transform.Find("Spot Light").gameObject;
+        //activatedLight.SetActive(false);
 
-    }
+        foreach (Transform child in this.transform.parent)
+        {
+            if (child.name.Equals(this.name))
+            {
+                if (child.Find("Spot Light") != null)
+                {
+                    GameObject activatedLight = child.Find("Spot Light").gameObject;
+                    activatedLight.SetActive(false);
+                }
+            }
+        }
+     }
 
     /// <summary>
     /// Notifies the object that it has been released.

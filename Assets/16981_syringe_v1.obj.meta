@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: c458c04ea4f796b4b94b7801838dbe93
-timeCreated: 1540232863
-licenseType: Free
+guid: 827f2a99f445efe4ca5787fecfc28a5f
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Material.063
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: BezierCurve.
+    100000: 16981_syringe
+    100002: //RootNode
+    400000: 16981_syringe
+    400002: //RootNode
+    2100000: 16981_syringeMat
+    2300000: 16981_syringe
+    3300000: 16981_syringe
+    4300000: 16981_syringe
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -30,6 +30,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -61,6 +62,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
