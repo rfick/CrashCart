@@ -27,17 +27,7 @@ public class StopWatchTimer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (countdown)
-        {
-            timerValue = timerValue - Time.deltaTime;
-            if(timerValue <= 0f)
-            {
-                countdown = false;
-                GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().startQuestionnaireSession = true;
-                GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().countdown = false;
-            }
-        }
-        else if(recordTime && activeSearch)
+        if(recordTime && activeSearch)
         {
             timerValue = timerValue + Time.deltaTime;
             if ((timerValue - objectStartTime) > giveUpTime)
@@ -52,12 +42,10 @@ public class StopWatchTimer : MonoBehaviour {
                 drawer = answerObject.transform.parent.gameObject;
                 drawer.GetComponent<ChangeMaterial>().onTimerEnd();
             }
+            TextMesh t = GetComponent<TextMesh>();
+            if (timerValue != 0f)
+                t.text = timerValue.ToString("0.00") + "";
         }
-        TextMesh t = GetComponent<TextMesh>();
-        if(timerValue!=0f)
-            t.text = timerValue.ToString("0.00")+"";
-
-		
 	}
 
     public void searchForObject()
@@ -80,6 +68,12 @@ public class StopWatchTimer : MonoBehaviour {
     {
         countdown = true;
         timerValue = 5; //5 second countdown
+    }
+
+    public void endCountdown()
+    {
+        countdown = false;
+        timerValue = 0f;
     }
 
     public void addTimer( GameObject gameObject)

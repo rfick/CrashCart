@@ -30,11 +30,9 @@ public class ButtonPressedAnu : MonoBehaviour {
                 Console.WriteLine(((OVRInput.Button)value).ToString());
                 if (OVRInput.Get((OVRInput.Button)value))
                 {
-                   // Debug.Log((OVRInput.Button)value);
-
+                    // Debug.Log((OVRInput.Button)value);
                     switch ((OVRInput.Button)value)
                     {
-
                         case OVRInput.Button.One:
                             GameObject mbx = GameObject.Find("mesh_button_a");
                             mbx.GetComponent<Renderer>().material.color = Color.green;
@@ -50,6 +48,11 @@ public class ButtonPressedAnu : MonoBehaviour {
                         case OVRInput.Button.PrimaryHandTrigger:
                             mbx = GameObject.Find("mesh_trigger_palmL");
                             mbx.GetComponent<Renderer>().material.color = Color.green;
+                            GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().leftTriggerPressed = true;
+                            GameObject.Find("OculusTouchL").transform.localScale = new Vector3(0, 0, 0);
+                            GameObject questionText = GameObject.Find("CollidedObjectTextLeft");
+                            TextMesh questionTextMesh = questionText.GetComponent<TextMesh>();
+                            questionTextMesh.text = "";
                             break;
                         case OVRInput.Button.Start:
                             mbx = GameObject.Find("mesh_button_oL");
@@ -96,6 +99,11 @@ public class ButtonPressedAnu : MonoBehaviour {
                         case OVRInput.Button.SecondaryHandTrigger:
                             mbx = GameObject.Find("mesh_trigger_palmR");
                             mbx.GetComponent<Renderer>().material.color = Color.green;
+                            GameObject.Find("OVRPlayerController").GetComponent<AnuScript>().rightTriggerPressed = true;
+                            GameObject.Find("OculusTouchR").transform.localScale = new Vector3(0, 0, 0);
+                            questionText = GameObject.Find("CollidedObjectTextRight");
+                            questionTextMesh = questionText.GetComponent<TextMesh>();
+                            questionTextMesh.text = "";
                             break;
                         case OVRInput.Button.Back:
                             mbx = GameObject.Find("mesh_button_oR");
@@ -146,6 +154,11 @@ public class ButtonPressedAnu : MonoBehaviour {
         }
         GameObject.Find("mesh_stickL").transform.localEulerAngles = lstickRotation;
         GameObject.Find("mesh_stickR").transform.localEulerAngles = rstickRotation;
+
+        GameObject mbx = GameObject.Find("mesh_trigger_palmL");
+        mbx.GetComponent<Renderer>().material.color = Color.green;
+        mbx = GameObject.Find("mesh_trigger_palmR");
+        mbx.GetComponent<Renderer>().material.color = Color.green;
     }
     public void pressButton(OVRInput.Button button)
     {

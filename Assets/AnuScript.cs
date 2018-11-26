@@ -8,6 +8,7 @@ public class AnuScript : MonoBehaviour {
     public bool startQuestionnaireSession;
     BoxCollider startPoint;
     public int numberOfQuestion;
+    public int totalnumberofQuestions;
     // Use this for initialization
     public List<GameObject> itemsInCart=new List<GameObject>();
     public List<GameObject> drawers=new List<GameObject>();
@@ -15,6 +16,8 @@ public class AnuScript : MonoBehaviour {
     public GameObject collideObject;
     public string name;
     public bool countdown;
+    public bool leftTriggerPressed;
+    public bool rightTriggerPressed;
     public List<string> playerRecords;
     bool savePlayerPref;
     public AudioSource audioSource;
@@ -22,7 +25,10 @@ public class AnuScript : MonoBehaviour {
 	void Start () {
         savePlayerPref = true;
         countdown = false;
+        leftTriggerPressed = false;
+        rightTriggerPressed = false;
         totalTime = 0f;
+        totalnumberofQuestions = numberOfQuestion;
        foreach(GameObject drawer in drawers )// find the objects inside the drawers!
         {
             //Transform[] allChildren = drawer.GetComponentsInChildren<Transform>();// the objects are children of the drawer
@@ -66,19 +72,25 @@ public class AnuScript : MonoBehaviour {
         {
             playerRecords.Add(savedListArray[i]+" and values are "+PlayerPrefs.GetString(savedListArray[i]));
         }
-        
+
+        GameObject questionText = GameObject.Find("QuestionText");
+        TextMesh questionTextMesh = questionText.GetComponent<TextMesh>();
+        questionTextMesh.text = "Squeeze the triggers to grab!";
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if(!startQuestionnaireSession && !countdown)// did the person reach the green arrow?
+        if(!startQuestionnaireSession && !leftTriggerPressed && !rightTriggerPressed)// did the person reach the green arrow?
         {
             checkStartQuestionnaire();
         }
-        else if(!countdown)
+        else if(leftTriggerPressed && rightTriggerPressed)
         {
-           // Debug.Log("1");
-            if(gameObjectToFind==null)
+            //Start timer
+            GameObject.Find("Timer").GetComponent<StopWatchTimer>().toggleTimerOnOff();
+
+            // Debug.Log("1");
+            if (gameObjectToFind==null)
             {
                 Random random = new Random();
                // Debug.Log("2");
@@ -91,7 +103,7 @@ public class AnuScript : MonoBehaviour {
                     itemsInCart.Remove(gameObjectToFind);
                     GameObject questionText = GameObject.Find("QuestionText");
                     TextMesh questionTextMesh = questionText.GetComponent<TextMesh>();
-                    questionTextMesh.text = "Q"+(10-numberOfQuestion)+". Pass me \n" + gameObjectToFind.name;
+                    questionTextMesh.text = "Q"+(totalnumberofQuestions-numberOfQuestion)+". Pass me the \n" + gameObjectToFind.name;
                     
                     if (gameObjectToFind.GetComponent<ObjectLeaveDirectStartLocation>().audioQuestion != null)
                     {
@@ -186,9 +198,6 @@ public class AnuScript : MonoBehaviour {
             //startQuestionnaireSession = true;
             Debug.Log("Questions start!!!!!!!!!!!!!!!!!!");
             GameObject cartPlane = GameObject.Find("Cart_Plane");
-            GameObject.Find("Timer").GetComponent<StopWatchTimer>().toggleTimerOnOff();
-            GameObject.Find("Timer").GetComponent<StopWatchTimer>().startCountdown();
-            countdown = true;
             if (cartPlane!=null)
             {
                 cartPlane.SetActive(false);
